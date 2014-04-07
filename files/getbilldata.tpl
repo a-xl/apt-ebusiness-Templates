@@ -15,7 +15,7 @@
 <form action={RECHNUNGSART_ACTION} method=post>
 <!-- BEGIN show_payments -->
 <table width=100%>
-<tR><td width=1 ><input type=radio name=rechnungsart value='{switch_show_all.show_payments.ID}_{switch_show_all.show_payments.REAL_PREIS}' {switch_show_all.show_payments.BUTTON_CHECK}></td>
+<tR><td width=1 ><input type=radio name=rechnungsart value='{switch_show_all.show_payments.ID}_{switch_show_all.show_payments.PREIS_KOSTEN}_{switch_show_all.show_payments.PREIS_RABATT}' {switch_show_all.show_payments.BUTTON_CHECK}></td>
 <td ><b>{switch_show_all.show_payments.NAME}</b>
 {switch_show_all.show_payments.HINWEIS}</td>
 <td valign=top align=right nowrap><b>{switch_show_all.show_payments.FORMATED_PREIS}</b>

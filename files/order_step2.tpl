@@ -122,7 +122,8 @@
 </td></tr><tr><td align=left valign=top>
 <b>{RECHNUNGSART_NAME}</b> {RECHNUNGSART}
 {RECHNUNGSART_HINWEIS}
-</td><td align=right valign=top>{WK_CUR} {RECHNUNGSART_KOSTEN}
+</td><td align=right valign=top>{WK_CUR} {RECHNUNGSART_KOSTEN_BETRAG}<br>
+{WK_CUR} {RECHNUNGSART_KOSTEN_RABATT}
 </td></tr></table>
 
 <hr>
